@@ -1,0 +1,95 @@
+@import "fonts.css";
+@import "reset.css";
+
+body{
+    font-family:"Open Sans", sans-serif ;
+    max-width: 1440px; 
+    margin:0 auto; 
+}
+
+.header{
+    max-width: 1440px;
+    height:104px;
+    background-color: rgb(247, 246, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 120px;
+}
+.header__logo{
+  font-family: "Varela Round", sans-serif;
+  font-size: 21px;
+  line-height: 32px; 
+  font-weight: 400; 
+}
+.header__link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left:72px ;
+}
+.main{
+    padding:128px 0 ;
+}
+
+.text1{
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color:#A5C926;
+}
+.text2{
+    font-family: "Varela Round";
+    font-weight: 400;
+    font-size:31px;
+    text-align:center;
+    color:#111111 ;
+    margin: 15px;
+}
+.part2{
+    padding-top: 120px;
+    padding-left: 120px;
+}
+.title{
+   font-family: "Varela Round";
+   font-weight: 400;
+   font-size: 31px; 
+}
+.rectangle{
+    width: 70px;
+    height: 2px;
+    background-color: #A5C926;
+    margin-top: 20px;
+}
+.text{
+    width: 451px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    margin-top: 20px;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    width: 145px;
+    height: 48px;
+    background-color: #A5C926;
+    border-radius:24px ;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.part3{
+    padding-right: 120px;
+    margin-top: 50px;
+}
+.img{
+    width: 567px;
+    height: 422px;
+    border-radius: 16px;
+}
